@@ -2,7 +2,9 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <Canvas Height="100" Width="100">
+        <Ellipse Canvas.Left="40" Canvas.Top="0" Height="20" Width="20" Fill="Aqua"></Ellipse>
+        <Ellipse Canvas.Left="20" Canvas.Top="90" Height="10" Width="10" Fill="Black"></Ellipse>
+        <Rectangle Canvas.Left="60" Canvas.Top="40" Height="15" Width="15" Fill="Orange"></Rectangle>
+    </Canvas>
 </Window>
